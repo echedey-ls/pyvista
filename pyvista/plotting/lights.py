@@ -72,14 +72,14 @@ class Light(_NoNewAttrMixin, DisableVtkSnakeCase, vtkLight):
         ``Light.CAMERA_LIGHT`` and ``Light.SCENE_LIGHT`` are also
         available, respectively.
 
-            - A headlight is attached to the camera, looking at its
-              focal point along the axis of the camera.
+        - A headlight is attached to the camera, looking at its
+          focal point along the axis of the camera.
 
-            - A camera light also moves with the camera, but it can
-              occupy a general position with respect to it.
+        - A camera light also moves with the camera, but it can
+          occupy a general position with respect to it.
 
-            - A scene light is stationary with respect to the scene,
-              as it does not follow the camera. This is the default.
+        - A scene light is stationary with respect to the scene,
+          as it does not follow the camera. This is the default.
 
     intensity : float, optional
         The brightness of the light (between 0 and 1).
@@ -836,9 +836,9 @@ class Light(_NoNewAttrMixin, DisableVtkSnakeCase, vtkLight):
 
         The property returns class constant values from an enum:
 
-            - ``Light.HEADLIGHT == 1``
-            - ``Light.CAMERA_LIGHT == 2``
-            - ``Light.SCENE_LIGHT == 3``
+        - ``Light.HEADLIGHT == 1``
+        - ``Light.CAMERA_LIGHT == 2``
+        - ``Light.SCENE_LIGHT == 3``
 
         If setting the value, either an integer code or a class constant enum
         value must be used.
