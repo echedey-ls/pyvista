@@ -970,9 +970,9 @@ class Light(_NoNewAttrMixin, DisableVtkSnakeCase, vtkLight):
         is the conventional elevation and ``azim`` is the conventional azimuth.
         In particular:
 
-          * ``elev = 0``, ``azim = 0`` is the +x direction
-          * ``elev = 0``, ``azim = 90`` is the +y direction
-          * ``elev = 90``, ``azim = 0`` is the +z direction
+        * ``elev = 0``, ``azim = 0`` is the +x direction
+        * ``elev = 0``, ``azim = 90`` is the +y direction
+        * ``elev = 90``, ``azim = 0`` is the +z direction
 
         Parameters
         ----------
