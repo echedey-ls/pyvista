@@ -6,11 +6,11 @@ Light Types
 
 Lights come in three types:
 
-  * headlights, the axis of which always coincides with the view of the camera,
-  * camera lights, which move together with the camera, but which can occupy
-    any fixed relative position with respect to the camera,
-  * scene lights, the position of which is fixed to the scene, and which is thus
-    unaffected by moving the camera. This is the default type.
+* headlights, the axis of which always coincides with the view of the camera,
+* camera lights, which move together with the camera, but which can occupy
+  any fixed relative position with respect to the camera,
+* scene lights, the position of which is fixed to the scene, and which is thus
+  unaffected by moving the camera. This is the default type.
 
 Headlight
 =========
